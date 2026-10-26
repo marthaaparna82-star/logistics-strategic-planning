@@ -1,0 +1,9 @@
+{
+  "frequency": "weekly",
+  "method": "ordinary least squares with lag_1, lag_2, rolling_mean_4",
+  "train_periods": 39,
+  "test_periods": 10,
+  "regression_wape": 0.2476483007595249,
+  "naive_last_week_wape": 0.25161812297734626,
+  "lower_wape_is_better": true
+}

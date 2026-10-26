@@ -1,0 +1,10 @@
+{
+  "data_type": "synthetic",
+  "order_lines": 2400,
+  "delivered_order_lines": 2400,
+  "otif_rate": 0.21416666666666667,
+  "average_delivery_lead_time_days": 4.77,
+  "fill_rate": 0.9254452574899903,
+  "cost_per_delivery": 10.527962500000001,
+  "cost_currency": "synthetic cost units; not a real currency"
+}

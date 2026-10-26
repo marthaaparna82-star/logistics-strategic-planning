@@ -1,0 +1,35 @@
+{
+  "data_type": "illustrative sample coordinates and demands",
+  "solver": "nearest-stop capacity-feasible heuristic; OR-Tools unavailable in this runtime",
+  "total_distance_units": 54331,
+  "routes": [
+    {
+      "vehicle": 1,
+      "stops": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        4,
+        0
+      ],
+      "load": 14
+    },
+    {
+      "vehicle": 2,
+      "stops": [
+        0,
+        3,
+        6,
+        8,
+        0
+      ],
+      "load": 12
+    }
+  ],
+  "vehicle_capacities": [
+    15,
+    15
+  ]
+}
