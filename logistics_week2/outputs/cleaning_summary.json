@@ -1,0 +1,74 @@
+{
+  "data_source": "synthetic, fictional; Kaggle endpoint returned HTTP 404",
+  "runtime_note": "Executed with Python standard library. NumPy was blocked by Windows Application Control; pandas, scikit-learn, and python-docx were not used.",
+  "before": {
+    "rows": 510,
+    "columns": 10,
+    "missing_values": 546,
+    "duplicate_rows": 10,
+    "data_types": {
+      "Order ID": "text (CSV input)",
+      "Order Date": "text (CSV input)",
+      "Shipping Date": "text (CSV input)",
+      "Sales": "text (CSV input)",
+      "Order Quantity": "text (CSV input)",
+      "Shipping Cost": "text (CSV input)",
+      "Profit": "text (CSV input)",
+      "Customer Segment": "text (CSV input)",
+      "Region": "text (CSV input)",
+      "Empty Column": "text (CSV input)"
+    }
+  },
+  "after": {
+    "rows": 489,
+    "missing_values": 0,
+    "duplicate_rows": 0
+  },
+  "removed_duplicates": 10,
+  "removed_invalid_dates": 2,
+  "removed_bad_shipping_dates": 5,
+  "removed_negative_rows": 4,
+  "dropped_empty_columns": 1,
+  "numeric_imputations": 29,
+  "text_imputations": 6,
+  "train_rows": 391,
+  "test_rows": 98,
+  "iqr_outlier_values": 41,
+  "capped_values": 28,
+  "cap_limits": {
+    "sales": [
+      14.432,
+      421.1850000000001
+    ],
+    "order_quantity": [
+      1.0,
+      12.0
+    ],
+    "shipping_cost": [
+      4.598,
+      118.23
+    ],
+    "profit": [
+      3.95,
+      246.193
+    ]
+  },
+  "scaler_parameters": {
+    "sales": {
+      "training_mean": 76.30168286445013,
+      "training_population_std": 65.14070515824369
+    },
+    "order_quantity": {
+      "training_mean": 6.831202046035806,
+      "training_population_std": 3.321194179831897
+    },
+    "shipping_cost": {
+      "training_mean": 55.143572890025574,
+      "training_population_std": 33.64390744865235
+    },
+    "profit": {
+      "training_mean": 118.12744757033248,
+      "training_population_std": 72.16340743731108
+    }
+  }
+}
